@@ -1,0 +1,99 @@
+Internet on the Move 
+
+This divides topic by layer, using the TCP/IP protocol suite (aka Five-layer internet model)
+
+Global Scenario
+- countries with excellent coverage i.e. sweden, finland, south korea
+- countries with poor coverage
+- what were the factors that lead to these differences 
+
+UK Governments policy and legication
+- Digital By Default
+- Open Data Project
+- Sale of Radio Spectum (http://www.pcpro.co.uk/news/377980/eu-bosses-free-up-more-radio-spectrum-for-4g)
+- Data Communications Bill
+- Broadband Delivery UK
+- Wireless Commons Licience 
+- Net Neutrality Debate 
+
+UK Statistics
+- Using of smartphones
+- Comparion of the coverage claimed by carriers and the reality
+- Coverage of 3G/4G provided by UK's main carriers
+- results of population survey about people without internet access
+
+Application layer
+- Bonding i.e. Opengarden
+- Use of RADIUS for AAA on Public hotspots
+- Use of Diameter for AAA
+- TLS/SSL & security
+- DNS
+- DNSSEC
+- .mobi sponsored TLD
+- Session Initiation Protocol (SIP)
+- Deley Tolerent Networks 
+
+Transport layer
+- multipath TCP
+- TCP-R
+- Multi-homed TCP
+- Stream Control Transmission Protocol (SCTP)
+- Datagram Congestion Control Protocol (DCCP)
+
+Network Layer
+- IPv6
+- Less then best effect (scavanger class)
+- Virtual Router Redundancy Protocol (VRRP)
+- Cisco's Hot Standby Router Protocol (HSRP)
+- Mobile IP
+- Hiearchical Mobile IPv6
+- Fast Mobile IPv6 
+- Host Identity Protocol (HIP)
+- IPsec
+- QoS field in IPv4
+- Resource Reservation Protocol for QoS
+- Resource Reservation Protocol - Traffic Engineering
+
+Data Link Layer
+- Multiprotocol Label Switching (MPLS) for QoS
+- Offloading/Onloading
+- 3G Onloading (3GOL)
+- Bonding 3G & Wifi
+- Wifi (IEEE 802.11)
+- WiMAX 
+- WiMax 2
+- Mobile WiMax (IEEE 802.16e)
+- WiMax Advanced (IEEE 802.16m)
+- LTE
+- LTE Advance 
+- High-Speed Packet Access (HSPA) 
+- Evolved High-Speed Packet Access (HSPA+)
+- 3rd Generation Partnership Project (3GPP)
+- 4G
+- Delay tolentent networking 
+- 5G
+- WiFox
+- WPA & WPA2
+- Mesh networking (IEEE 802.11s)
+- Mobile Broadband Wireless Access (MBWA) (IEEE 802.20)
+
+Physical Layer
+- Joint user multi-user beamforming
+- MIMO transmitter
+- Pocket Switched Networks
+- Virtual LANs for QoS
+
+Cloud/virtualization
+- Signposts
+
+Multilayer 
+- LCD
+- Eduroam/JANET - european acedemic network
+- measuring performace acheived
+- BT FON
+- Guifi
+- PAWS
+- Opportunistic Communication 
+- Home Location Register (HLR)
+- Home Subscriber Service (HSS)
+
