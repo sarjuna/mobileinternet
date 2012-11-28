@@ -1,0 +1,40 @@
+Notes from European Mobile Industry Observatory 2011
+
+- Other potential soucres of information are Eurostat, the OECD, National regulatory authorities, Wireless intelligence, Bloomberg, Quantifica, EIU and IDC
+- References to european refer to the 30 countries of EEA unless otherwise stated
+- 656 million individual sibscriptions (measured by active SIM's) held by an estimated 456 million europeans
+- cisco predict that mobile data traffic volumes will increase by over 90 % each year for the next 5 years
+- across the EU27, mobile prices fell by an average of 11-13% per annum between 2006 - 2010 pg8
+- data now represents 12 % of mobile operator service revenues, compared to 4% in 2007 pg9
+- 52 % of european subscription are prepaided, but data on prepaided is expensive
+- european average 90% of population have 3G coverage, rises to 94% in sweden, finland and austria
+- research vodafone's "open-femto" project
+- penetration rate of 3G-enabled phones is 51% in euro
+- greece introduced a mandatory SIM registration programm, resulting in  8% decilme in proportion of prepaided subsrcied from 2009 to 2011
+- in some countries mobile networks are the default gatewat to the internet e.g. in romania where penetration of 3G devices is twice that of foxid line services
+- mobile broadband penetration in europear through datacards/dougles has grown by 92 % from 2006 to 2010
+- average pentration of datacards/dougles is 6 % in EU but as low as 1% in luxembourg
+- Increasingly mobile broadband via dongle is bundled with other sevices such as access to particular WiFi hotspots, permittion to tether, use of "mobile-only" services, combined dongle and mobile or fixed line services
+- the boundaries between laptops, netbooks, smartphones and tablets are blurred
+- morgen stanley found that 2/3rd of companies surveyed expecrt ro allow tablets on thier corporate networks within the next year
+- there has been an explosion in mobile data traffic volumes !!!! (caused by both increasing traffic per user and increasing users)
+- cisco predicts that by 2015 on a per capita basis europeans will conume over 3000 MB each month compared to asis pacific using 652 MB per month
+- more players are now involved in the mobile market, previously it was mainly network operators, handset manufactures and infrastructure supplers. New player include legal/regulatory, media & communications,content and services , advertising, content distribution, user interfaces, OS and applications, distribution
+- 3G/W-CDMA networks are expected to reach capacity and throughput limits from 2014 (White paper for the GSMA: The momentum behind LTE worldwide, January 2011)
+- new tech (like LTE) use radio spectrum more efficently by increasing the capacity per MHz
+- Spectrum allocation such as digital dividend enables signals to travel further than current frequencies
+- TeliaSonera in sweden and norway was the first network operator to commercially launch an LTE network in Dec 2012
+- investment in LTE-advance has already begin
+- specturm availbility is essential to the success of LTE, refarming existing GSM spectrum and "digital dividend" frequenices that are freed by analogue to digital TV switch over
+- european is laging behind USA in 4G, also european is using a patchwork of spectrum for 4G unlike USA
+- network operators offering "unlimited" plans has helped mobile data, but unlimited is still subject to fair-use or limited access speed after several GB's
+- networks are working together to provide coverage across euro i.e. customerns on 3 can use data on partnet networks across europe
+- method of payment for data is a key issues to some. i.e. 02 offers data bundles to postpaid contracts
+- Wholesale application communtiy (WAC), aims to standardise mobile applications, not specific to an OS etc...
+- Vodafone rollingout direcr billing for android
+- what happened to NFC ?
+- HTML 5 and move from native apps as HTML 5 will run in all mobile browser so one app serves all OS's
+- OEM are moving from device-centric to an ecosystem-centric bisness model e.g. nokia & microsoft, or HTC & beats & dropbox
+- Average revenus per user (ARPU) across europe was 42% less in 2011 than in 2010, from the use of multi-sim and decrease on out of bundle calling
+- GSMA launched Mobile Energy Efficiency Network Benchmarking service
+- Child protection on mobile internet (challenge compared to fixed line) 
