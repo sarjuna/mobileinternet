@@ -1,0 +1,224 @@
+%% THIS IS A DRAFT OF THE INTERNET ON THE MOVE SURVEY
+%% its based on a skeleton file demonstrating the use of IEEEtran.cls
+%% (requires IEEEtran.cls version 1.7 or later) with an IEEE journal paper.
+%% Info on how I set this up is avaliable at on my blog
+%% http://etc-hosts.blogspot.co.uk/2012/11/latex-ieee-surveys-tutorials-way-pt-1.html
+
+% Also note that the "draftcls" or "draftclsnofoot", not "draft", option
+% should be used if it is desired that the figures are to be displayed in
+% draft mode.
+
+\documentclass[journal]{IEEEtran}
+
+
+% *** CITATION PACKAGES ***
+%
+%\usepackage{cite}
+% cite.sty was written by Donald Arseneau
+% V1.6 and later of IEEEtran pre-defines the format of the cite.sty package
+% \cite{} output to follow that of IEEE. Loading the cite package will
+% result in citation numbers being automatically sorted and properly
+% "compressed/ranged". e.g., [1], [9], [2], [7], [5], [6] without using
+% cite.sty will become [1], [2], [5]--[7], [9] using cite.sty. cite.sty's
+% \cite will automatically add leading space, if needed. Use cite.sty's
+% noadjust option (cite.sty V3.8 and later) if you want to turn this off.
+% cite.sty is already installed on most LaTeX systems. Be sure and use
+% version 4.0 (2003-05-27) and later if using hyperref.sty. cite.sty does
+% not currently provide for hyperlinked citations.
+% The latest version can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/cite/
+% The documentation is contained in the cite.sty file itself.
+
+
+
+\begin{document}
+
+% working title, please replace with better title
+% you can use linebreaks \\ title
+\title{Internet On The Move Survey}
+
+
+% I dont know how you order author or how exactly are the authors 
+% so I've gone for alphabetical ordering
+
+\author{Jon Crowcroft, Heidi Howard, Arjuna Sathiaseelan, Narseo Valina} % <-this % stops a space
+        
+% adding any thanks using \thanks{ }% <-this % stops a space
+
+% The paper headers
+\markboth{Internet on the move survey DRAFT}%
+{Internet on the move survey DRAFT}
+% The only time the second header will appear is for the odd numbered pages
+% after the title page when using the twoside option.
+
+
+% make the title area
+\maketitle
+
+
+\begin{abstract}
+%\boldmath
+The abstract goes here.
+\end{abstract}
+
+
+% Note that keywords are not normally used for peerreview papers.
+\begin{IEEEkeywords}
+IEEEtran, journal, \LaTeX, paper, template.
+\end{IEEEkeywords}
+
+
+
+\section{Introduction}
+
+% 
+% Here we have the typical use of a "T" for an initial drop letter
+% and "HIS" in caps to complete the first word.
+\IEEEPARstart{T}{his} demo file is intended to serve as a ``starter file''
+for IEEE journal papers produced under \LaTeX\ using
+IEEEtran.cls version 1.7 and later.
+
+ 
+\hfill January 11, 2007
+
+\section{Global Scenario}
+
+\section{European Scenario}
+% countries with excellent coverage i.e. sweden, finland, south korea
+% countries with poor coverage
+% what were the factors that lead to these differences 
+\subsection{Key Players}
+\subsection{Mobile Broadband Penetration}
+\subsection{Coverage}
+\subsubsection{2G}
+\subsubsection{3G}
+\subsubsection{4G}
+\subsection{Spectrum Allocation}
+\subsection{Mobile Broadband Traffic}
+\subsection{Wide area WiFi networks}
+\subsection{Infrastructure}
+
+\section{UK Scenario}
+% Digital By Default
+% Open Data Project
+% Sale of Radio Spectum (http://www.pcpro.co.uk/news/377980/eu-bosses-free-up-more-radio-spectrum-for-4g)
+% Data Communications Bill
+% Broadband Delivery UK
+% Wireless Commons Licience 
+% Net Neutrality Debate 
+% Using of smartphones
+% Comparion of the coverage claimed by carriers and the reality
+% Coverage of 3G/4G provided by UK's main carriers
+% results of population survey about people without internet access
+
+
+\section{Application Layer}
+\subsection{Bonding}
+%  i.e. Opengarden
+\subsection{AAA}
+% using RADIUS
+% using Diameter
+\subsection{Security}
+% TLS/SSL
+\subsection{DNS}
+%DNSSEC
+% .mobi TLD
+\subsection{SIP}
+% session initiation protocol
+\subsection{Delay Tolerant Networks}
+
+\section{Transport Layer}
+\subsection{ multipath TCP }
+% TCP-R
+\subsection{ Multi-homed TCP }
+\subsection{Stream Control Transmission Protocol (SCTP)}
+\subsection{Datagram Congestion Control Protocol (DCCP)}
+
+\section{Network Layer}
+\subsection{Mobile IP}
+\subsection{Host Identity Protocol (HIP)}
+\subsection{IPsec}
+\subsection{IPv4}
+% QoS field
+\subsection{Transition to IPv6}
+\subsection{Hierarchical Mobile IPv6}
+\subsection{Fast Mobile IPv6}
+\subsection{Resource Reservation Protocol}
+% for QoS and Traffic Engineering
+\subsection{Cisco's Hot Standby Router Protocol (HSRP)}
+\subsection{Virtual Router Redundancy Protocol (VRRP)}
+\subsection{Less then best effect (scavanger class)}
+
+\section{Data Link and Physical Layer}
+
+\subsection{ Multiprotocol Label Switching (MPLS) for QoS }
+\subsection{ Offloading/Onloading }
+\subsection{ 3G Onloading (3GOL) }
+\subsection{ Bonding 3G and Wifi }
+\subsection{ Wifi (IEEE 802.11) }
+\subsection{ WiMAX }
+\subsection{ WiMax 2 }
+\subsection{ Mobile WiMax (IEEE 802.16e) }
+\subsection{ WiMax Advanced (IEEE 802.16m) }
+\subsection{ LTE }
+\subsection{ LTE Advance }
+\subsection{ High-Speed Packet Access (HSPA) }
+\subsection{ Evolved High-Speed Packet Access (HSPA+) }
+\subsection{ 3rd Generation Partnership Project (3GPP) }
+\subsection{ 4G } 
+\subsection{ 5G }
+\subsection{ WiFox }
+\subsection{ WPA and WPA2 }
+\subsection{ Mesh networking (IEEE 802.11s) }
+\subsection{ Mobile Broadband Wireless Access (MBWA) (IEEE 802.20)}
+\subsection{ Joint user multi-user beamforming }
+\subsection{ MIMO transmitter }
+\subsection{ Pocket Switched Networks }
+\subsection{ Virtual LANs for QoS }
+
+
+\section{Cloud and Virtualization}
+\subsection{ Signposts }
+
+\section{Multilayer}
+\subsection{ LCD }
+\subsection{ Eduroam/JANET european acedemic network }
+\subsection{ measuring performace acheived }
+\subsection{ BT FON }
+\subsection{ Guifi }
+\subsection{ PAWS }
+\subsection{ Opportunistic Communication }
+\subsection{ Home Location Register (HLR) }
+\subsection{ Home Subscriber Service (HSS) }
+
+\section{Conclusion}
+The conclusion goes here.
+
+
+% references section
+
+% can use a bibliography generated by BibTeX as a .bbl file
+% BibTeX documentation can be easily obtained at:
+% http://www.ctan.org/tex-archive/biblio/bibtex/contrib/doc/
+% The IEEEtran BibTeX style support page is at:
+% http://www.michaelshell.org/tex/ieeetran/bibtex/
+%\bibliographystyle{IEEEtran}
+% argument is your BibTeX string definitions and bibliography database(s)
+%\bibliography{IEEEabrv,../bib/paper}
+%
+% <OR> manually copy in the resultant .bbl file
+% set second argument of \begin to the number of references
+% (used to reserve space for the reference number labels box)
+\begin{thebibliography}{1}
+
+\bibitem{IEEEhowto:kopka}
+H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
+  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
+
+\end{thebibliography}
+
+
+\end{document}
+
+% Before submitting one of us need to do the testflow test
+% support page for this is at: http://www.michaelshell.org/tex/testflow/
