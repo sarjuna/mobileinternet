@@ -1,6 +1,6 @@
-Notes from European Mobile Industry Observatory 2011
+Notes from European Mobile Industry Observatory 2011, avaliable from arjuna's email or sources folder
 
-- Other potential soucres of information are Eurostat, the OECD, National regulatory authorities, Wireless intelligence, Bloomberg, Quantifica, EIU and IDC
+
 - References to european refer to the 30 countries of EEA unless otherwise stated
 - 656 million individual sibscriptions (measured by active SIM's) held by an estimated 456 million europeans
 - cisco predict that mobile data traffic volumes will increase by over 90 % each year for the next 5 years
@@ -38,3 +38,12 @@ Notes from European Mobile Industry Observatory 2011
 - Average revenus per user (ARPU) across europe was 42% less in 2011 than in 2010, from the use of multi-sim and decrease on out of bundle calling
 - GSMA launched Mobile Energy Efficiency Network Benchmarking service
 - Child protection on mobile internet (challenge compared to fixed line) 
+
+Notes taken from Eurostat
+- a good source of numerical data is http://epp.eurostat.ec.europa.eu/portal/page/portal/information_society/introduction
+- the dataset from eurostat could be very useful for adding graphs and figures etc
+
+Notes taken from OECD
+- some statictical data is avalible, some is behind a pay wall, more applicable to global section
+
+
