@@ -1,0 +1,22 @@
+Notes from GSMA
+
+- The GSMA is an association of mobile operators and related parties devoted to supporting the standardising, deployment and promoting of GSM
+- there website is includes a welth of information particularly here (http://www.gsma.com/spectrum/resources/)
+
+Notes from "White paper for the GSMA, The momentum behind LTE worldwide", avalible from GSMA website or sources folder
+
+- Data is expected to account from over 90 % of total wireless network traffic worldwide by 2015
+- The first LTE networks used FDD variant but now we are moving to TDD
+- LTE needs ro utilise the right mix of paired and unpaired spectum bands (http://www.analysysmason.com/About-Us/News/Insight/Unpaired-spectrum-article-Jun2012/)
+- timing of spectrum sells is essential
+- lte requires high-frequency bands for high capacity (e.g. 2.3 GHz and 2.6 GHz) and low-frequency bands for greater coverage (e.g. 700 MHz, 800MHz + digital dividend)
+- The ‘digital dividend’ refers to spectrum bands(between 200MHz - 1GHz) that will be freed up in the switchover from analogue to
+digital terrestrial TV
+- femtocells, need to research if there are any good
+- a table for LTE deployments worldwide would be good, like page 9 with region, country, operator, spectrum band, FDD or TDD and data (this table is too out of date)
+- Polish network operators CenterNet and Mobyland (part of Aero2) were the first network operators in the world to implement a shared network architecture in September 2010 utilising the 1800MHz band.
+- Although LTE can be deployed using 10MHz of
+bandwidth, 2×20MHz of contiguous spectrum would be ideal in providing maximum capacity and
+highest spectral efficiency. 
+- WiMax
+
