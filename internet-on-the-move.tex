@@ -10,26 +10,8 @@
 
 \documentclass[journal]{IEEEtran}
 
-
-% *** CITATION PACKAGES ***
-%
-%\usepackage{cite}
-% cite.sty was written by Donald Arseneau
-% V1.6 and later of IEEEtran pre-defines the format of the cite.sty package
-% \cite{} output to follow that of IEEE. Loading the cite package will
-% result in citation numbers being automatically sorted and properly
-% "compressed/ranged". e.g., [1], [9], [2], [7], [5], [6] without using
-% cite.sty will become [1], [2], [5]--[7], [9] using cite.sty. cite.sty's
-% \cite will automatically add leading space, if needed. Use cite.sty's
-% noadjust option (cite.sty V3.8 and later) if you want to turn this off.
-% cite.sty is already installed on most LaTeX systems. Be sure and use
-% version 4.0 (2003-05-27) and later if using hyperref.sty. cite.sty does
-% not currently provide for hyperlinked citations.
-% The latest version can be obtained at:
-% http://www.ctan.org/tex-archive/macros/latex/contrib/cite/
-% The documentation is contained in the cite.sty file itself.
-
-
+% *** CITATION PACKAGE ***
+\usepackage{cite}
 
 \begin{document}
 
@@ -51,7 +33,6 @@
 % The only time the second header will appear is for the odd numbered pages
 % after the title page when using the twoside option.
 
-
 % make the title area
 \maketitle
 
@@ -70,49 +51,157 @@ IEEEtran, journal, \LaTeX, paper, template.
 
 
 \section{Introduction}
-
-% 
 % Here we have the typical use of a "T" for an initial drop letter
 % and "HIS" in caps to complete the first word.
-\IEEEPARstart{T}{his} demo file is intended to serve as a ``starter file''
-for IEEE journal papers produced under \LaTeX\ using
-IEEEtran.cls version 1.7 and later.
+\IEEEPARstart{T}{his} survey intends to identify and explore the problems that need to be tackled before ubiquitous internet access is available everywhere to all. We begin by looking at the current situation regarding internet access on mobile devices and the current predicated developments over the coming years. After identified the challenges that need to tackled, we move onto the current research going into solving these challenges, from the conceptual ideas to real life deployments, we evaluated proposed solutions against each other and explore how the a combination of solution working at different layers can advance the availably of internet on the move to the next set of challenges. 
 
  
-\hfill January 11, 2007
+\hfill December 4th, 2012
 
-\section{Global Scenario}
+\section{Global Scenario} %Please ignore this section for now as i'm hoping to leave it for now and focus on the technical areas
 
-\section{European Scenario}
+\subsection{Key Players}
+
+Today's availability of internet on the move, as been shaped by the key players in field. These key players take the research and determine what is turned into reality.
+
+\subsubsection{Client Side}
+% content distribution networks
+% application distributors 
+% users
+% website designers
+% http://www.broadcom.com/press/release.php?id=s724734
+% dont focus to much on mobile, also tablets, laptops, personal games consoles, MiWifi, dongles, kindle
+% employers BYOD verse company phone verse dual-sim
+% Marvell http://www.engadget.com/2012/12/04/marvel-brings-the-gig-to-wifi-with-new-802-11ac-4x4-SoC/
+
+% handset manufactures / hardware manufactures
+Before ISPs, Network providers or governments invest in infrastructure, there need to be a strong business or social case for the investment. The handset manufactures are responsible for providing the clients with the hardware required to make use of technologies. The handset manufactures need to respond to market demand, though they have the power to push there chosen technologies into the market and attempt to push market demand. 
+
+The handset manufactures need to determine if they have a sufficiently strong position in the market to push a propriety technology into the market therefore creating new demand in the market for their specific handset range therefore propelling them into an even stronger market position. Alternatively if they are not in a sufficiently stronger position, they can parter with other key players to push new more open technologies. 
+
+As well as handset manufactures there is also the manufactures of other mobile devices such as laptops, netbooks, e readers, personal games consoles, MiWifi, dongles etc..
+
+% broadcom vs qualcomm on LTE chips e.g. http://www.engadget.com/2012/12/09/broadcom-expects-its-own-lte-chipsets-in-2013/
+
+% OS developers (platform specific or HTML5) i.e. Sailfish OS  CyanogenMod 
+The extend to which the users make use of the new hardware capabilities of there devices is party determined by the mobile OS and the API provided for developers. Some OS have decided to restrict the functionality which they provide to uses whilst other OS's have taken a more open approach. 
+
+% how develop of application for a platform is dependant on market share, APIs, cost od development
+
+% Rooting phones
+Some users respond to restricted APIs by choosing to gain root access or "jailbreak" to there mobile devices. Root (also know as superuser) access allows the user and their application to change file permissions and install custom firmware and software.
+
+On an Android device for examples, gaining root access to a mobile device allows the user to install a custom ROM. Sometimes custom ROMs port now android version before being officially released or they focus on improved speed and performance but most important for the context of the survey is how custom ROMs allow the user to make use of more functionality of hardware that was not previously exposed by the stock OS
+
+% Application developers and advertisers
+
+% dual sim phones
+
+% 4G enabled laptop
+
+% tethering
+
+
+\subsubsection{Network Infrastructure}
+% network providers
+% http://blog.t-mobile.com/2012/11/20/t-mobile-enhances-coverage-in-10-new-metro-areas-just-in-time-for-holiday-travel/
+% TD-SCDMA 
+% http://www.engadget.com/2012/12/04/qualcomm-snapdragon-s4-china-quad-core/
+% ISPs
+% http://www.engadget.com/2012/12/04/google-phone-service-fiber-kansas-city-plans/
+
+
+
+\subsubsection{Research & Standards}
+% Governments - the US government is most vital here i.e. Federal Communications Commission (FCC) and  National Security Agency (NSA)
+% http://www.engadget.com/2012/12/04/court-tosses-verizon-claims-that-the-fcc-cant-require-data-roaming/
+% http://www.cabinetoffice.gov.uk/sites/default/files/resources/WMS_Cyber_Strategy_3-Dec-12_1.pdf
+% http://www.engadget.com/2012/12/04/lenovo-thinkpad-tab-revisits-fcc-packing-3g-radio-no-lte/
+% GSM Association (GSMA) 
+% International Telecommunication Union (ITU)
+% Internet Corporation for Assigned Names and Numbers (ICANN) /  Internet Assigned Numbers Authority (IANA) / American Registry for Internet Numbers (ARIN)
+% Institute of Electrical and Electronics Engineers (IEEE)
+% Internet Engineering Task Force (IETF)  
+%  World Wide Web Consortium (W3C)
+% the degree to which QoS is used ?
+
+\subsection{Spectrum}
+% how spectrum is divided
+% timing and organision of spectrum sells in differet countries 
+% how the digitial dividend is being used
+% in the future what countries are have an advantage when it comes to future communications 
+% use/sell of paired and unpaired spectrum bands
+% refarming 2G services for 3G services
+% spectrum liberaalisation, use a pipe dream or a possible reality ?
+% spectrum harmonisation - uniform allocation of frequency bands across whole regions
+% 4G easily jammed
+
+\subsection{Public Policy}
+% data collection & retension 
+% privacy
+% energy efficiency & CO2 emissions
+% child protection
+% Net Neutrality Debate
+% economics, taxation and investment
+% roaming
+% insentives for roll out
+
+
+\subsection{Coverage}
 % countries with excellent coverage i.e. sweden, finland, south korea
 % countries with poor coverage
 % what were the factors that lead to these differences 
-\subsection{Key Players}
-\subsection{Mobile Broadband Penetration}
-\subsection{Coverage}
+% internet on the move !!! i.e. on public transport 
+% rural verse urban 
+
 \subsubsection{2G}
 \subsubsection{3G}
 \subsubsection{4G}
-\subsection{Spectrum Allocation}
+
 \subsection{Mobile Broadband Traffic}
 \subsection{Wide area WiFi networks}
 \subsection{Infrastructure}
+% investment in infracture for companies and governments
+% cost of infrastucture
+% public reception to infrastrure 
+% security and relibility of infactruture i.e. in natural disasers
+% low energy infracture
+% lack of fibre to towers
+% datacentres near roots of tower
+% pico cell etc..
 
-\section{UK Scenario}
+\subsection{Development}
+% mobile internet in developing countries
+% internet access for the One Laptop Per Child project
+% internet access in disaster response
+% human right internet access
+% china smart phones for all
+
+\section{UK Scenario} %Please ignore this section for now as i'm hoping to leave it for now and focus on the technical areas
+
+The UK is in critical time for internet on the move, with heavy investment in 4G which is let to produce results and extensive Wi-Fi coverage in some density urban areas whilst 15\% of the population remain disconnected. \cite{accessOfcom}
+
+\subsection{Government}
 % Digital By Default
 % Open Data Project
-% Sale of Radio Spectum (http://www.pcpro.co.uk/news/377980/eu-bosses-free-up-more-radio-spectrum-for-4g)
 % Data Communications Bill
 % Broadband Delivery UK
-% Wireless Commons Licience 
-% Net Neutrality Debate 
+% Wireless Commons Licience  
+% ofcom
+
+\subsection{Spectrum}
+% Sale of Radio Spectum (http://www.pcpro.co.uk/news/377980/eu-bosses-free-up-more-radio-spectrum-for-4g)
+
+\subsection{Coverage}
 % Using of smartphones
 % Comparion of the coverage claimed by carriers and the reality
 % Coverage of 3G/4G provided by UK's main carriers
 % results of population survey about people without internet access
-% ofcom e.g 
+% EE's LTE deployment
+% rural internet access
 
 \section{Application Layer}
+\subsection{P2P}
 \subsection{Bonding}
 %  i.e. Opengarden
 \subsection{AAA}
@@ -121,7 +210,7 @@ IEEEtran.cls version 1.7 and later.
 \subsection{Security}
 % TLS/SSL
 \subsection{DNS}
-%DNSSEC
+% DNSSEC
 % .mobi TLD
 \subsection{SIP}
 % session initiation protocol
@@ -133,14 +222,27 @@ IEEEtran.cls version 1.7 and later.
 \subsection{ Multi-homed TCP }
 \subsection{Stream Control Transmission Protocol (SCTP)}
 \subsection{Datagram Congestion Control Protocol (DCCP)}
+\subsection{TCP adaptions}
+% explicit congestion notification i.e. microsoft enable and firewallls then dropped the packets
+% flag days and how difficult it is to make changes
+% seperating inference and congestion
+
 
 \section{Network Layer}
+\subsection{IP eXchange (IPX)}
+% see 
 \subsection{Mobile IP}
 \subsection{Host Identity Protocol (HIP)}
 \subsection{IPsec}
 \subsection{IPv4}
 % QoS field
 \subsection{Transition to IPv6}
+Back in June 2011, the Internet Society held the World IPv6 Day. It was marketed at as the next step in the IPv6 deployment and offered a mini flag day to the Internet’s key players. Whilst parts of the world move forward, other areas are being left behind. In the Asia Pacific for example, some users struggle to access services that are only IPv4 compatible when ISPs fail to offer tunnelling services or tunnelling services make a notable impact on latency.
+
+Why not have an IPv6 flag day, reminiscent of the Network Control Program (NCP) to the Transmission Control Protocol / Internet Protocol (TCP/IP) on January 1st 1983.
+ 
+
+
 \subsection{Hierarchical Mobile IPv6}
 \subsection{Fast Mobile IPv6}
 \subsection{Resource Reservation Protocol}
@@ -164,6 +266,7 @@ IEEEtran.cls version 1.7 and later.
 \subsection{ WiMax Advanced (IEEE 802.16m) }
 \subsection{ LTE }
 % FDD and TDD varieties of LTE
+% VoLTE info here http://www.gsma.com/technicalprojects/volte/
 \subsection{ LTE Advance }
 \subsection{ High-Speed Packet Access (HSPA) }
 \subsection{ Evolved High-Speed Packet Access (HSPA+) }
@@ -179,6 +282,30 @@ IEEEtran.cls version 1.7 and later.
 \subsection{ Pocket Switched Networks }
 \subsection{ Virtual LANs for QoS }
 
+\section{Security}
+% http://news.cnet.com/8301-1035_3-57550805-94/lte-networks-vulnerable-to-inexpensive-jamming-technique/
+% malisious applications
+% rogue hotspots
+% viruses 
+% distributed DoS attackes
+% malware
+% phising
+% device security such as PINs and patterns
+% firewalls
+% SSL/TSL
+% child protection
+% P2P
+% daufualt admin passwords for routers
+% WAP / WEP
+% DNS etc
+% remote data wipe
+% how appstores vet for malisious application
+% syncing of data means that where is more copy of data that need securiting
+% password security
+% risks of VPNing from mobile devices to coorpeate networks
+% DNSSIG http://dnssig.org Based on SIG(0), which is one the last-mile hops we looked at too (and TSIG, which doesnt work so well)
+
+% IMEI database
 
 \section{Cloud and Virtualization}
 \subsection{ Signposts }
@@ -186,7 +313,7 @@ IEEEtran.cls version 1.7 and later.
 \section{Multilayer}
 \subsection{ LCD }
 \subsection{ Eduroam/JANET european acedemic network }
-\subsection{ measuring performace acheived }
+\subsection{ measuring performance achieved }
 \subsection{ BT FON }
 \subsection{ Guifi }
 \subsection{ PAWS }
@@ -214,9 +341,15 @@ The conclusion goes here.
 % (used to reserve space for the reference number labels box)
 \begin{thebibliography}{1}
 
-\bibitem{IEEEhowto:kopka}
-H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
-  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
+\bibitem{GSMAobservations}
+GSMA, European Mobile Industry Observatory 2011, http://www.gsma.com/publicpolicy/wp-content/uploads/2012/04/emofullwebfinal.pdf
+
+\bibitem{accessOfcom}
+Office for National Statistics, Internet Access Quarterly Update, Q3 2012, http://www.ons.gov.uk/ons/dcp171778_286665.pdf.
+
+\bibitem{UKbroadbandfuture}
+Department for Business, Industry and Skills, Britain’s Superfast Broadband Future, December 2010, 
+http://www.culture.gov.uk/images/publications/britainsSuperfastBroadbandFuture.pdf
 
 \end{thebibliography}
 
